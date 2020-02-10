@@ -122,5 +122,12 @@ namespace Calculator
             mathText.Text = "" + ans;
             
         }
+
+        private void sqrtButton_Click(object sender, EventArgs e) //Обработка корня
+        {
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+            var ans = Int32.Parse(mathText.Text); //Получаем значение текстового поля и переводим в Int
+            mathText.Text = "" + Math.Sqrt(ans); //Вычисляем корень и выводим ответ
+        }
     }
 }
