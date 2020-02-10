@@ -1,0 +1,9 @@
+C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\bin\Release\Calculator.exe.config
+C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\bin\Release\Calculator.exe
+C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\bin\Release\Calculator.pdb
+C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\obj\Release\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\obj\Release\Calculator.CalculatorWindow.resources
+C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\obj\Release\Calculator.Properties.Resources.resources
+C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\obj\Release\Calculator.csproj.GenerateResource.Cache
+C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\obj\Release\Calculator.exe
+C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\obj\Release\Calculator.pdb
