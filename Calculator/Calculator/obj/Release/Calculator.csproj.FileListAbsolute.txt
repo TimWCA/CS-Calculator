@@ -7,3 +7,5 @@ C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\obj\Relea
 C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\obj\Release\Calculator.csproj.GenerateResource.Cache
 C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\obj\Release\Calculator.exe
 C:\Users\Вихрянов Тимофей\Desktop\Calculator\Calculator\obj\Release\Calculator.pdb
+C:\Users\Вихрянов Тимофей\CS-Calculator\Calculator\Calculator\obj\Release\Calculator.exe
+C:\Users\Вихрянов Тимофей\CS-Calculator\Calculator\Calculator\obj\Release\Calculator.pdb
