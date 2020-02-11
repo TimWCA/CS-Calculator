@@ -48,6 +48,7 @@
             this.clearButton = new System.Windows.Forms.Button();
             this.dotButton = new System.Windows.Forms.Button();
             this.sqrtButton = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mathText
@@ -193,12 +194,20 @@
             this.sqrtButton.UseVisualStyleBackColor = true;
             this.sqrtButton.Click += new System.EventHandler(this.sqrtButton_Click);
             // 
+            // button10
+            // 
+            resources.ApplyResources(this.button10, "button10");
+            this.button10.Name = "button10";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.degButton_Click);
+            // 
             // CalculatorWindow
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CausesValidation = false;
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.sqrtButton);
             this.Controls.Add(this.dotButton);
             this.Controls.Add(this.clearButton);
@@ -247,6 +256,7 @@
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.Button dotButton;
         private System.Windows.Forms.Button sqrtButton;
+        private System.Windows.Forms.Button button10;
     }
 }
 

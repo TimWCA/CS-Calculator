@@ -7,12 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace Calculator
 {
     public partial class CalculatorWindow : Form
     {
-
+        int i = 0;
         public CalculatorWindow()
         {
             InitializeComponent();
@@ -22,7 +21,6 @@ namespace Calculator
         {
 
         }
-
         //
         //Цифровая клавиатура
         //
@@ -128,6 +126,32 @@ namespace Calculator
             System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
             var ans = Int32.Parse(mathText.Text); //Получаем значение текстового поля и переводим в Int
             mathText.Text = "" + Math.Sqrt(ans); //Вычисляем корень и выводим ответ
+        }
+
+        
+        private void degButton_Click(object sender, EventArgs e)
+        {
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+            i++;
+            var n = Int32.Parse(mathText.Text);
+            if (Int32.Parse(mathText.Text) != 0)
+            {
+                if (i == 1)
+                {
+                    mathText.Text = "Введите степень и нажмите эту же кнопку";
+                    mathText.SelectionStart = 0;
+                    mathText.SelectionLength = mathText.Text.Length;
+                    mathText.Focus();
+                }
+                else if (i == 2)
+                {
+                    var deg = Int32.Parse(mathText.Text);
+                    mathText.Text = "" + Math.Pow(n, deg);
+                }
+            } else
+            {
+                i = 0;
+            }
         }
     }
 }
